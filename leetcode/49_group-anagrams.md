@@ -58,8 +58,9 @@ var groupAnagrams = function (strs) {
       count[c.charCodeAt(0) - 97]++;
     }
     // we serialize the count array to a string to avoid issues with them as map keys
-    count = count.join("");
-    if (m.get(count) === undefined) {
+    // we cannot do this without a separator; otherwise, counts could be ambigous
+    count = count.join(",");
+    if (!m.has(count)) {
       m.set(count, []);
     }
     m.get(count).push(s);
