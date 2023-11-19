@@ -1,4 +1,4 @@
-# 1. Two Sum
+# 22. Generate Parentheses
 
 ## Link
 
