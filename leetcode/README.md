@@ -12,3 +12,4 @@ My solutions to some Leetcode problems.
 | [22. Generate Parentheses](22_generate-parentheses.md)             | stack unnecessary, order of checks matters for validity (`open < n` followed by `closed < open`)                                     |
 | [937. Reorder Data in Log Files](937_reorder-data-in-log-files.md) | spread syntax; `s1.localeCompare(s2)`; `Number(s)` & `isNaN()`; `s.slice()` and `s.indexOf()`                                        |
 | [347. Top K Frequent Elements](347_top-k-frequent-elements.md)     | `.get() \|\| default` idea; spreading operator; freq map for counts, buckets for grouping counts, reverse iteration for k best.      |
+| [832. Flipping an Image](832_flipping-an-image.md)                 | possibility of using `map` & `reverse` for one-liner; realizing reversal & inversion could be done at the same time.                 |
