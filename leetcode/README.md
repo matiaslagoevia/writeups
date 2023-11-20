@@ -11,3 +11,4 @@ My solutions to some Leetcode problems.
 | [541. Reverse String II](541_reverse-string-ii.md)                 | strings immutable, use `.split()` and `.join()` to move b/w array & string; last range `r=min(n-1, i+len-1)`.                        |
 | [22. Generate Parentheses](22_generate-parentheses.md)             | stack unnecessary, order of checks matters for validity (`open < n` followed by `closed < open`)                                     |
 | [937. Reorder Data in Log Files](937_reorder-data-in-log-files.md) | spread syntax; `s1.localeCompare(s2)`; `Number(s)` & `isNaN()`; `s.slice()` and `s.indexOf()`                                        |
+| [347. Top K Frequent Elements](347_top-k-frequent-elements.md)     | `.get() \|\| default` idea; spreading operator; freq map for counts, buckets for grouping counts, reverse iteration for k best.      |
