@@ -38,7 +38,7 @@ We can have a left and right pointer that move inwards, swapping the opposite co
 
 > `O(1)`
 
-- The space used by our vairables is independent of the size of our input
+- The space used by our variables is independent of the size of our input
 
 ## Code
 
