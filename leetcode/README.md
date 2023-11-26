@@ -27,4 +27,4 @@ My solutions to some Leetcode problems.
 | [542. 01 Matrix](542_01-matrix.md)                                             | multisource bfs starting from target vs dp approach split up in 2 directions in-place.                                                                                           |
 | [20. Valid Parentheses](20_valid-parentheses.md)                               | stack w/ open chars only, for closing ones check that it's pair is on the top of the stack, all good if stack is empty by the end of it.                                         |
 | [1128. Number of Equivalent Domino Pairs](1128_equivalent-domino-pairs.md)     | serializing to unique domino sorted values, counting as-is during iteration and for each unique domino's value, computing number of pairs by value choose 2.                     |
-| [346. Moving Average From Data Stream](346_moving-average-from-data-stream.md) |
+| [346. Moving Average From Data Stream](346_moving-average-from-data-stream.md) | fixed array, circular indexing, reuse older sum values.                                                                                                                          |
